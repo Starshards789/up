@@ -1,35 +1,35 @@
-owner: Starshards789   老板:Starshards789
-repo: up   回购协议:
+owner: Starshards789
+repo: up
 
-sites:   网站:
-  - name: HK FRP 服务器
+sites:
+  - name: HK FRP Server
     url: http://38.76.165.23:26629
     maxResponseTime: 5000
 
-  - name: PVE Hermes SSH   —name: PVE Hermes SSH
-    check: "tcp-ping"   check: "tcp-ping"
+  - name: PVE Hermes SSH
+    check: "tcp-ping"
     url: 38.76.165.23
-    port: 26700   端口:26700
+    port: 26700
     maxResponseTime: 5000
 
-  - name: FRPC 面板
-    check: "tcp-ping"   check: "tcp-ping"
+  - name: FRPC Panel
+    check: "tcp-ping"
     url: 38.76.165.23
-    port: 26710   端口:26710
+    port: 26710
     maxResponseTime: 5000
 
-  - name: Mihomo 面板
+  - name: Mihomo Panel
     url: http://38.76.165.23:26720
     maxResponseTime: 5000
 
   - name: Mihomo SOCKS5
-    check: "tcp-ping"   check: "tcp-ping"
+    check: "tcp-ping"
     url: 38.76.165.23
     port: 26731
     maxResponseTime: 5000
 
-  - name: 深圳 WSL2 SSH
-    check: "tcp-ping"   check: "tcp-ping"
+  - name: WSL2 SSH
+    check: "tcp-ping"
     url: 38.76.165.23
     port: 26722
     maxResponseTime: 5000
@@ -39,10 +39,9 @@ assignees:
 
 status-website:
   baseUrl: /up
-  name: "Starshards 服务状态"
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  introTitle: "PVE & FRP 服务监控"
-  introMessage: 从外部实时检测所有服务的在线状态
+  name: "Starshards Status"
+  introTitle: "PVE & FRP Monitor"
+  introMessage: Real-time service status from outside
   navbar:
     - title: Status
       href: /
@@ -50,9 +49,4 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
   uptime: "*/5 * * * *"
