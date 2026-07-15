@@ -2,33 +2,33 @@ owner: Starshards789
 repo: up
 
 sites:
-  - name: HK FRP Server
+  - name: 🇭🇰 HK FRP 服务器
     url: http://38.76.165.23:26629
     maxResponseTime: 5000
 
-  - name: PVE Hermes SSH
+  - name: 🖥️ PVE Hermes SSH
     check: "tcp-ping"
     url: 38.76.165.23
     port: 26700
     maxResponseTime: 5000
 
-  - name: FRPC Panel
+  - name: ⚙️ FRPC 管理面板
     check: "tcp-ping"
     url: 38.76.165.23
     port: 26710
     maxResponseTime: 5000
 
-  - name: Mihomo Panel
+  - name: 🤖 Mihomo 控制台
     url: http://38.76.165.23:26720
     maxResponseTime: 5000
 
-  - name: Mihomo SOCKS5
+  - name: 🔒 Mihomo SOCKS5
     check: "tcp-ping"
     url: 38.76.165.23
     port: 26731
     maxResponseTime: 5000
 
-  - name: WSL2 SSH
+  - name: 🪟 深圳 WSL2 SSH
     check: "tcp-ping"
     url: 38.76.165.23
     port: 26722
@@ -39,11 +39,11 @@ assignees:
 
 status-website:
   baseUrl: /up
-  name: "Starshards Status"
-  introTitle: "PVE & FRP Monitor"
-  introMessage: Real-time service status from outside
+  name: "⚡ Starshards 服务状态"
+  introTitle: "PVE & FRP 实时监控"
+  introMessage: "从波兰外部节点每5分钟检测一次，挂了立刻知道"
   navbar:
-    - title: Status
+    - title: 状态
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
