@@ -1,31 +1,58 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Starshards789   老板:Starshards789
+repo: up   回购协议:
 
-sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+sites:   网站:
+  - name: HK FRP 服务器
+    url: http://38.76.165.23:26629
+    maxResponseTime: 5000
+
+  - name: PVE Hermes SSH   —name: PVE Hermes SSH
+    check: "tcp-ping"   check: "tcp-ping"
+    url: 38.76.165.23
+    port: 26700   端口:26700
+    maxResponseTime: 5000
+
+  - name: FRPC 面板
+    check: "tcp-ping"   check: "tcp-ping"
+    url: 38.76.165.23
+    port: 26710   端口:26710
+    maxResponseTime: 5000
+
+  - name: Mihomo 面板
+    url: http://38.76.165.23:26720
+    maxResponseTime: 5000
+
+  - name: Mihomo SOCKS5
+    check: "tcp-ping"   check: "tcp-ping"
+    url: 38.76.165.23
+    port: 26731
+    maxResponseTime: 5000
+
+  - name: 深圳 WSL2 SSH
+    check: "tcp-ping"   check: "tcp-ping"
+    url: 38.76.165.23
+    port: 26722
+    maxResponseTime: 5000
+
+assignees:
+  - Starshards789
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  baseUrl: /up
+  name: "Starshards 服务状态"
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "PVE & FRP 服务监控"
+  introMessage: 从外部实时检测所有服务的在线状态
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
