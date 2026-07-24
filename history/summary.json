@@ -12,11 +12,11 @@
     "uptimeYear": "0.00%",
     "time": 544,
     "timeDay": 497,
-    "timeWeek": 539,
+    "timeWeek": 535,
     "timeMonth": 544,
     "timeYear": 544,
     "dailyMinutesDown": {
-      "2026-07-24": 79,
+      "2026-07-24": 548,
       "2026-07-23": 1440,
       "2026-07-22": 1440,
       "2026-07-21": 1440,
@@ -41,7 +41,7 @@
     "uptimeYear": "100.00%",
     "time": 171,
     "timeDay": 150,
-    "timeWeek": 171,
+    "timeWeek": 168,
     "timeMonth": 171,
     "timeYear": 171,
     "dailyMinutesDown": {}
@@ -59,7 +59,7 @@
     "uptimeYear": "100.00%",
     "time": 173,
     "timeDay": 150,
-    "timeWeek": 170,
+    "timeWeek": 168,
     "timeMonth": 173,
     "timeYear": 173,
     "dailyMinutesDown": {}
@@ -77,11 +77,11 @@
     "uptimeYear": "0.00%",
     "time": 615,
     "timeDay": 2212,
-    "timeWeek": 655,
+    "timeWeek": 684,
     "timeMonth": 615,
     "timeYear": 615,
     "dailyMinutesDown": {
-      "2026-07-24": 79,
+      "2026-07-24": 548,
       "2026-07-23": 1440,
       "2026-07-22": 1440,
       "2026-07-21": 1440,
@@ -106,7 +106,7 @@
     "uptimeYear": "100.00%",
     "time": 170,
     "timeDay": 151,
-    "timeWeek": 169,
+    "timeWeek": 167,
     "timeMonth": 170,
     "timeYear": 170,
     "dailyMinutesDown": {}
@@ -116,17 +116,17 @@
     "url": "38.76.165.23",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "wsl-2-ssh",
-    "status": "down",
-    "uptime": "27.48%",
-    "uptimeDay": "17.88%",
-    "uptimeWeek": "11.68%",
-    "uptimeMonth": "27.48%",
-    "uptimeYear": "27.48%",
-    "time": 198,
-    "timeDay": 208,
-    "timeWeek": 198,
-    "timeMonth": 198,
-    "timeYear": 198,
+    "status": "up",
+    "uptime": "26.48%",
+    "uptimeDay": "17.89%",
+    "uptimeWeek": "7.03%",
+    "uptimeMonth": "26.48%",
+    "uptimeYear": "26.48%",
+    "time": 193,
+    "timeDay": 197,
+    "timeWeek": 197,
+    "timeMonth": 193,
+    "timeYear": 193,
     "dailyMinutesDown": {
       "2026-07-15": 61,
       "2026-07-23": 1182,
@@ -136,7 +136,7 @@
       "2026-07-19": 1440,
       "2026-07-18": 1440,
       "2026-07-17": 442,
-      "2026-07-24": 79
+      "2026-07-24": 547
     }
   }
 ]
