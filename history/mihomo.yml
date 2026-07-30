@@ -1,7 +1,7 @@
 url: http://38.76.165.23:26720
-status: degraded
+status: down
 code: 401
-responseTime: 7798
-lastUpdated: 2026-07-30T00:09:20.221Z
+responseTime: 461
+lastUpdated: 2026-07-30T03:22:11.177Z
 startTime: 2026-07-15T12:25:07.619Z
 generator: Upptime <https://github.com/upptime/upptime>
