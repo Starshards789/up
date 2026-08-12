@@ -16,7 +16,7 @@
     "timeMonth": 555,
     "timeYear": 555,
     "dailyMinutesDown": {
-      "2026-08-12": 1000,
+      "2026-08-12": 1059,
       "2026-08-11": 1440,
       "2026-08-10": 1440,
       "2026-08-09": 1440,
@@ -100,7 +100,7 @@
     "timeMonth": 1299,
     "timeYear": 1299,
     "dailyMinutesDown": {
-      "2026-08-12": 1000,
+      "2026-08-12": 1059,
       "2026-08-11": 1440,
       "2026-08-10": 1440,
       "2026-08-09": 1440,
@@ -154,14 +154,14 @@
     "url": "38.76.165.23",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "wsl-2-ssh",
-    "status": "down",
-    "uptime": "45.02%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "51.41%",
-    "uptimeMonth": "45.02%",
-    "uptimeYear": "45.02%",
+    "status": "up",
+    "uptime": "44.96%",
+    "uptimeDay": "95.90%",
+    "uptimeWeek": "50.83%",
+    "uptimeMonth": "44.96%",
+    "uptimeYear": "44.96%",
     "time": 182,
-    "timeDay": 206,
+    "timeDay": 196,
     "timeWeek": 186,
     "timeMonth": 182,
     "timeYear": 182,
@@ -188,7 +188,7 @@
       "2026-08-08": 1440,
       "2026-08-07": 462,
       "2026-08-11": 513,
-      "2026-08-12": 0
+      "2026-08-12": 59
     }
   }
 ]
