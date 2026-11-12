@@ -16,7 +16,7 @@
     "timeMonth": 0,
     "timeYear": 555,
     "dailyMinutesDown": {
-      "2026-11-12": 270,
+      "2026-11-12": 748,
       "2026-11-11": 1440,
       "2026-11-10": 1440,
       "2026-11-09": 1440,
@@ -201,7 +201,7 @@
     "timeMonth": 0,
     "timeYear": 1130,
     "dailyMinutesDown": {
-      "2026-11-12": 270,
+      "2026-11-12": 749,
       "2026-11-11": 1440,
       "2026-11-10": 1440,
       "2026-11-09": 1440,
@@ -329,11 +329,11 @@
     "url": "38.76.165.23",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mihomo-socks-5",
-    "status": "up",
+    "status": "down",
     "uptime": "99.67%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.70%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.67%",
     "time": 189,
     "timeDay": 214,
@@ -343,7 +343,8 @@
     "dailyMinutesDown": {
       "2026-08-21": 44,
       "2026-08-20": 398,
-      "2026-10-09": 130
+      "2026-10-09": 130,
+      "2026-11-12": 4
     }
   },
   {
@@ -352,11 +353,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "wsl-2-ssh",
     "status": "down",
-    "uptime": "20.90%",
+    "uptime": "20.84%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "20.90%",
+    "uptimeYear": "20.84%",
     "time": 196,
     "timeDay": 0,
     "timeWeek": 0,
@@ -422,7 +423,7 @@
       "2026-09-15": 1440,
       "2026-09-14": 1440,
       "2026-09-13": 1440,
-      "2026-11-12": 270,
+      "2026-11-12": 749,
       "2026-11-11": 1440,
       "2026-11-10": 1440,
       "2026-11-09": 1440,
